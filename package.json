@@ -1,0 +1,22 @@
+{
+  "name": "Alexandr Sribny",
+  "description": "This project and files in it were created to pass the exam for devops vacansy I do attempt on",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "filewatcher": "^3.0.1",
+    "log-timestamp": "^0.3.0",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
