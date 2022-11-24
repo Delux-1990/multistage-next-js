@@ -11,7 +11,7 @@ sudo docker build -t webapp .
 ```
 Запуск контейнера:
 ```bash
-sudo docker run -d 3000:3000 webapp
+sudo docker run -d -p 3000:3000 webapp
 ```
 ```bash
 user@user-def:~/development/github/dev_ops/nextappdocker/app$ sudo docker run -p  3000:3000 webapp 
